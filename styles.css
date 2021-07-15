@@ -1,3 +1,52 @@
 body {
   background-color: pink;
 }
+span {
+  padding: 0 20px 0 0;
+}
+.square {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(80, 156, 255);
+  display: inline-block;
+  height: 50px;
+  width: 30px;
+  border-radius: 10px;
+  vertical-align: top;
+  z-index: -1;
+  text-align: center;
+}
+.card {
+  position: absolute;
+  margin: auto;
+  padding: auto;
+  background-color: cornsilk;
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.suit {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.name {
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+.openCard {
+  background-color: aliceblue;
+}
